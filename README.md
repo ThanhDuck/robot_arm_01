@@ -13,6 +13,8 @@ Các bước thực hiện :
 1. Chạy Gazebo và Rviz
 
 roslaunch robot_arm_01 my_new_launch.launch 
+Hình ảnh mô phỏng 
+![Screenshot from 2025-04-01 23-34-48](https://github.com/user-attachments/assets/a5470871-2462-4375-9ab7-d336a9049458)
 
 2. Cấp quyền cho các file python
 
@@ -20,5 +22,7 @@ chmod +x control.py
 3. Điều khiển xe + tay máy
 
 rosrun robot_arm_01 control.py 
+Hình ảnh : 
+![Screenshot from 2025-04-01 23-36-47](https://github.com/user-attachments/assets/063f2ec0-11d0-44e7-9471-874b7fd29fb4)
 
 4. Link video demo : ttps://www.youtube.com/watch?v=h3ZNki7OOS0

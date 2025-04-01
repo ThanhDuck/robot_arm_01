@@ -4,9 +4,10 @@ Mô tả
 Mô phỏng xe 2 bánh vi sai và tay máy trong gazebo và mô tả trong rviz. Xe có thể di chuyển bằng bàn phím (bao gồm cả xe và tay máy), đồng thời có thể đọc được các cảm biến IMU, Lidar, Camera.
 1. Setup môi trường
 
-    ROS, Gazebo, Rviz
-    Download source: git clone https://github.com/ThanhDuck/ros-differential-robot.git
-    Đảm bảo không gian làm việc: catkin_make -> source devel/setup.bash
+   ROS, Gazebo, Rviz
+   Download source: git clone https://github.com/ThanhDuck/ros-differential-robot.git
+
+   Đảm bảo không gian làm việc: catkin_make -> source devel/setup.bash
 
 Các bước thực hiện
 1. Chạy Gazebo và Rviz

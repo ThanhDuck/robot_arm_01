@@ -13,6 +13,12 @@ Các bước thực hiện :
 1. Chạy Gazebo và Rviz
 
 roslaunch robot_arm_01 my_new_launch.launch 
+
+Lưu ý : Do chưa save nên add topic bằng tay từ mục by topic
+
+![Screenshot from 2025-04-01 23-38-49](https://github.com/user-attachments/assets/30ab2ed7-f5c5-4f1e-8568-8f94a0b8ff96)
+
+(camera là image)
 Hình ảnh mô phỏng 
 ![Screenshot from 2025-04-01 23-34-48](https://github.com/user-attachments/assets/a5470871-2462-4375-9ab7-d336a9049458)
 

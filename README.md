@@ -19,6 +19,7 @@ Hình ảnh mô phỏng
 2. Cấp quyền cho các file python
 
 chmod +x control.py 
+
 3. Điều khiển xe + tay máy
 
 rosrun robot_arm_01 control.py 

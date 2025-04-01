@@ -32,4 +32,4 @@ rosrun robot_arm_01 control.py
 Hình ảnh : 
 ![Screenshot from 2025-04-01 23-36-47](https://github.com/user-attachments/assets/063f2ec0-11d0-44e7-9471-874b7fd29fb4)
 
-4. Link video demo : ttps://www.youtube.com/watch?v=h3ZNki7OOS0
+4. Link video demo : https://www.youtube.com/watch?v=h3ZNki7OOS0

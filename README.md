@@ -29,6 +29,7 @@ chmod +x control.py
 3. Điều khiển xe + tay máy
 
 rosrun robot_arm_01 control.py 
+
 Hình ảnh : 
 ![Screenshot from 2025-04-01 23-36-47](https://github.com/user-attachments/assets/063f2ec0-11d0-44e7-9471-874b7fd29fb4)
 

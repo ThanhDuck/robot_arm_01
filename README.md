@@ -6,12 +6,12 @@ Mô phỏng xe 2 bánh vi sai và tay máy trong gazebo và mô tả trong rviz.
 
    ROS, Gazebo, Rviz
    Download source: ```bash
-    git clone [https://github.com/ThanhDuck/ros-differential-robot.git](https://github.com/ThanhDuck/ros-differential-robot.git)
+    git clone https://github.com/ThanhDuck/ros-differential-robot.git
     ```
 
    Đảm bảo không gian làm việc: ```
     bash catkin_make
-    source devel/setup.bash
+    -> source devel/setup.bash
     ```
 
 # Các bước thực hiện :

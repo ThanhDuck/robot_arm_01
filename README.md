@@ -21,14 +21,13 @@ Mô phỏng xe 2 bánh vi sai và tay máy trong gazebo và mô tả trong rviz.
 roslaunch robot_arm_01 my_new_launch.launch
 ```
 
-Lưu ý: Do chưa lưu cấu hình Rviz, bạn cần thêm các topic bằng tay từ mục "by topic" trong Rviz.
+# Lưu ý: Do chưa lưu cấu hình Rviz, bạn cần thêm các topic bằng tay từ mục "by topic" trong Rviz.
 
 Hình ảnh mô phỏng Gazebo và Rviz
 (camera hiển thị là topic /camera/image_raw)
 
 ![Screenshot from 2025-04-01 23-38-49](https://github.com/user-attachments/assets/30ab2ed7-f5c5-4f1e-8568-8f94a0b8ff96)
 
-(camera là image)
 Hình ảnh mô phỏng 
 ![Screenshot from 2025-04-01 23-34-48](https://github.com/user-attachments/assets/a5470871-2462-4375-9ab7-d336a9049458)
 

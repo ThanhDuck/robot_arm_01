@@ -5,7 +5,7 @@ Mô phỏng xe 2 bánh vi sai và tay máy trong gazebo và mô tả trong rviz.
 # 1. Setup môi trường
 
    ROS, Gazebo, Rviz
-   Download source: ```bash
+   Download source: ```
     git clone https://github.com/ThanhDuck/ros-differential-robot.git
     ```
 
@@ -17,9 +17,14 @@ Mô phỏng xe 2 bánh vi sai và tay máy trong gazebo và mô tả trong rviz.
 # Các bước thực hiện :
 # 1. Chạy Gazebo và Rviz
 
-'''roslaunch robot_arm_01 my_new_launch.launch'''
+```
+roslaunch robot_arm_01 my_new_launch.launch
+```
 
-Lưu ý : Do chưa save nên add topic bằng tay từ mục by topic
+Lưu ý: Do chưa lưu cấu hình Rviz, bạn cần thêm các topic bằng tay từ mục "by topic" trong Rviz.
+
+Hình ảnh mô phỏng Gazebo và Rviz
+(camera hiển thị là topic /camera/image_raw)
 
 ![Screenshot from 2025-04-01 23-38-49](https://github.com/user-attachments/assets/30ab2ed7-f5c5-4f1e-8568-8f94a0b8ff96)
 
@@ -28,13 +33,13 @@ Hình ảnh mô phỏng
 ![Screenshot from 2025-04-01 23-34-48](https://github.com/user-attachments/assets/a5470871-2462-4375-9ab7-d336a9049458)
 
 # 2. Cấp quyền cho các file python
-
-chmod +x control.py 
-
+```
+chmod +x control.py
+```
 # 3. Điều khiển xe + tay máy
-
+```
 rosrun robot_arm_01 control.py 
-
+```
 Hình ảnh : 
 ![Screenshot from 2025-04-01 23-36-47](https://github.com/user-attachments/assets/063f2ec0-11d0-44e7-9471-874b7fd29fb4)
 

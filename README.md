@@ -9,7 +9,7 @@ Mô phỏng xe 2 bánh vi sai và tay máy trong gazebo và mô tả trong rviz.
 
    Đảm bảo không gian làm việc: catkin_make -> source devel/setup.bash
 
-Các bước thực hiện :
+# Các bước thực hiện :
 # 1. Chạy Gazebo và Rviz
 
 roslaunch robot_arm_01 my_new_launch.launch 

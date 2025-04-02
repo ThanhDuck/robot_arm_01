@@ -10,7 +10,7 @@ Mô phỏng xe 2 bánh vi sai và tay máy trong gazebo và mô tả trong rviz.
     ```
 
    Đảm bảo không gian làm việc: ```
-    bash catkin_make
+     catkin_make
     -> source devel/setup.bash
     ```
 
